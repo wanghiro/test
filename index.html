@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+	<link rel = "stylesheet"  href = "style.css">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
+	<title>
+		Yuuki's Personal Portofolio
+	</title>
+	</head>
+	<body>
+		<div class = "container">
+			<nav>
+				<div class = "logo"> 
+					<span style = "color:#E29013" > c </span>
+					<span style = "color:#F3530B" > o</span>
+					<span style = "color:#7512EA" > b </span>
+					<span style = "color:#09F6E7" > o </span>
+				</div>
+
+				<ul class = "navItems">
+					<li> <a href = ""> Home </a></li>
+					<li> <a href = ""> About </a></li>
+					<li> <a href = ""> Projects </a></li>
+					<li> <a href = ""> Blog</a></li>
+					<li> <a href = "">Gallery </a></li>
+					<li> <a href = "./contact.html"> Contact </a></li>
+				</ul>
+				<div class = "links">
+					<a href = "#"><i class='fa fa-linkedin'></i></a>
+					<a href = "#"><i class = "fa fa-instagram"></i></a>
+					<a href = "#"><i class = "fa fa-facebook"></i></a>
+				</div>
+			</nav>
+
+			<div class = "wrapper">
+				<div class = "cols cols0" >
+					<span class = "topline"> Hello </span>
+					<h1> I'm a <span class = "multitext"></span></h1>
+					<p> My name is Yuuki Munagamage. Biomedical engineering graduate from Hong Kong. Currently working as a STEM instructor at Cobo Academy. </p>
+					<div class = "btns">
+						<button> Contact Me </button>
+				</div>
+			</div>
+			<div class = "cols cols1">
+				<div class = "imgbox">
+					<img src = "profileimg.png" id = "profile">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src = "https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script>
+		var typingEffect = new Typed(".multitext", {
+			strings : ["coder", "instructor", "lego designer", "front end developer"], 
+			loop: true,
+			typeSpeed :100, 
+			backSpeed : 80,
+			backDelay: 1000
+
+		})
+	</script>
+	</body>
+
+</html>
+
